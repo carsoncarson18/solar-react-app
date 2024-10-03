@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/carsoncarson18/solar-react-app.git/static/css/main.431d8552.css",
-    "main.js": "/carsoncarson18/solar-react-app.git/static/js/main.2c2145b9.js",
-    "static/js/453.627181f7.chunk.js": "/carsoncarson18/solar-react-app.git/static/js/453.627181f7.chunk.js",
-    "static/media/centralsolar2.jpg": "/carsoncarson18/solar-react-app.git/static/media/centralsolar2.252670c4b45d59d36dfc.jpg",
-    "static/media/fortsch-solar.jpg": "/carsoncarson18/solar-react-app.git/static/media/fortsch-solar.eef8c51b85a923e85ac9.jpg",
-    "static/media/solargis.png": "/carsoncarson18/solar-react-app.git/static/media/solargis.ffd71b4d9f7b617e4557.png",
-    "static/media/solarmap.png": "/carsoncarson18/solar-react-app.git/static/media/solarmap.c91e3a22c937632c4866.png",
-    "index.html": "/carsoncarson18/solar-react-app.git/index.html",
-    "main.431d8552.css.map": "/carsoncarson18/solar-react-app.git/static/css/main.431d8552.css.map",
-    "main.2c2145b9.js.map": "/carsoncarson18/solar-react-app.git/static/js/main.2c2145b9.js.map",
-    "453.627181f7.chunk.js.map": "/carsoncarson18/solar-react-app.git/static/js/453.627181f7.chunk.js.map"
+    "main.css": "/solar-react-app/static/css/main.431d8552.css",
+    "main.js": "/solar-react-app/static/js/main.ed3c9e06.js",
+    "static/js/453.627181f7.chunk.js": "/solar-react-app/static/js/453.627181f7.chunk.js",
+    "static/media/centralsolar2.jpg": "/solar-react-app/static/media/centralsolar2.252670c4b45d59d36dfc.jpg",
+    "static/media/fortsch-solar.jpg": "/solar-react-app/static/media/fortsch-solar.eef8c51b85a923e85ac9.jpg",
+    "static/media/solargis.png": "/solar-react-app/static/media/solargis.ffd71b4d9f7b617e4557.png",
+    "static/media/solarmap.png": "/solar-react-app/static/media/solarmap.c91e3a22c937632c4866.png",
+    "index.html": "/solar-react-app/index.html",
+    "main.431d8552.css.map": "/solar-react-app/static/css/main.431d8552.css.map",
+    "main.ed3c9e06.js.map": "/solar-react-app/static/js/main.ed3c9e06.js.map",
+    "453.627181f7.chunk.js.map": "/solar-react-app/static/js/453.627181f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.431d8552.css",
-    "static/js/main.2c2145b9.js"
+    "static/js/main.ed3c9e06.js"
   ]
 }
