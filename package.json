@@ -2,7 +2,7 @@
   "name": "solar-capability-app",
   "proxy": "https://api.weatherapi.com",
   "version": "0.1.0",
-  "homepage": "https://github.com/carsoncarson18/solar-react-app.git",
+  "homepage": "https://carsoncarson18.github.io/solar-react-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
