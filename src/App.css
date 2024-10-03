@@ -1,38 +1,214 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #002d42;
+  background-color: #ecece2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Montserrat', sans-serif;
+  color: #002d42;
+  font-weight: 415;
+}
+
+p {
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.Subtext {
+  font-size: calc((10px + 2vmin) * 1);
+}
+
+.Subheading {
+  font-family: 'Montserrat', sans-serif;
+  color: #002d42;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  text-align: center;
+  background-color: rgb(235, 235, 225, 0.8);
+  display: flex; 
+  flex-flow: column; 
+  align-items: center; 
+  justify-content: flex-start; 
+  font-size: calc(10px + 2vmin); 
+  margin: 2vh 2%;
+  margin-bottom: 250px;
+  padding: 15px; 
+  width: 96%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Header-container {
+  background-size: cover; 
+  background-position: center; 
+  padding: 20px; 
+  margin-bottom: 40px;
+  
+}
+
+.Separator {
+  border: none; 
+  border-top: 3px solid #002d42;
+  margin-top: 10px;
+  margin-bottom: 20px; 
+  width: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Box1 {
+  display: flex;
+  flex: 1;
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  padding: 30px;
+  margin: 2vh 2% 0;
+  margin-bottom: 0px;
+  background-color: #d9daca;
+}
+
+.Box1 p {
+  text-indent: 30px;
+}
+
+.Weather-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.Weather-header h2 {
+  margin: 0; 
+  margin-right: 10px; 
+}
+
+.Weather-header img {
+  margin-left: auto;
+  width: 50px;
+  height: auto; 
+}
+
+.Weather-component {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f2febc;
+  color: #002d42;
+  padding: 30px;
+  margin: 0 2%;
+}
+
+.ContentWrapper {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: stretch;
+  width: calc(100% - 40px);
+}
+
+.TextAndWeather {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  flex: 1;
+  margin-right: 20px; 
+  max-width: 50%;
+}
+
+.Text2 p{
+  text-indent: 30px;
+}
+
+.ImageWrapper {
+  background-color: #d9dfdf;
+  padding: 40px; 
+  display: flex; 
+  align-items: center; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 50%; 
 }
 
-.App-link {
-  color: #61dafb;
+.SideImage {
+  width: 100%;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .ContentWrapper {
+    flex-direction: column; 
+    align-items: center; 
   }
-  to {
-    transform: rotate(360deg);
+
+  .TextAndWeather {
+    margin-right: 0; 
+    max-width: 100%; 
   }
+
+  .ImageWrapper {
+    margin: 20px;
+    max-width: 100%; 
+  }
+
+  .SideImage {
+    width: 80%; 
+    height: auto;
+  }
+}
+
+.ContentWrapper2 {
+  background-color: #cacfbb;
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 40px);
+}
+
+.Text2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.ImageWrapper2 {
+  display: flex;
+  flex: 1;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .ContentWrapper2 {
+    flex-direction: column; 
+  }
+  .Text2 {
+    margin-right: 0; 
+    margin-bottom: 40px; 
+  }
+  .ImageWrapper2 {
+    justify-content: center;
+    width: 100%
+  }
+
+
 }
